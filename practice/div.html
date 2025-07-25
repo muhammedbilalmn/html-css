@@ -5,15 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>div</title>
     <style>
-        .div{
+        .prof{
+            background-color: lightblue;
+            border-color: rgb(191, 96, 96);
             width: 200px;
-            background-color: red;
+            height: 400px;
+            display: inline-block;
+        }
+        .image{
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            display: inline-block;
+        }
+        .h{
+            line-height: 0%;
+        }
+        .addfriend{
+            margin-left: 5px;
+            border: none;
+            border-radius: 2px;
+            background-color: rgb(38, 146, 255);
+            width: 100px;
         }
     </style>
 </head>
 <body>
-    <div class="div">
-        <p> ...</p>
-    </div>
+        <div class="prof">
+            <img class="image" src="cat1.jpg" alt="cat1">
+            <h4 class="h">Hamza</h4>
+            <p class="p">2 mutual friends</p>
+            <input class="addfriend" type="button" value="Add Friend">
+        </div>
+        <div class="prof">
+            <img class="image" src="cat2.jpg" alt="cat1">
+            <h4 class="h">Mamby</h4>
+            <p class="p">1 mutual friends</p>
+            <input class="addfriend" type="button" value="Add Friend">
+        </div>
+        <div class="prof">
+            <img class="image" src="cat3.jpg" alt="cat1">
+            <h4 class="h">hakkafa</h4>
+            <p class="p">15 mutual friends</p>
+            <input class="addfriend" type="button" value="Add Friend">
+        </div>
+   
 </body>
 </html>
