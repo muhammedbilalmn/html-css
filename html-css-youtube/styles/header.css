@@ -3,6 +3,16 @@
     flex-direction: row;
     height: 50px;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+
 }
 .left-section{
     
