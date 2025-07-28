@@ -38,3 +38,17 @@
         column-gap: 16px;
         row-gap: 40px;
        }
+       .vedio-div{
+        position: relative;
+       }
+       .vedio-time{
+        background-color: black;
+        color: white;
+        font-family: Roboto ,Arial, Helvetica, sans-serif;
+        position: absolute;
+        right: 5px;
+        bottom: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 3px;
+       }
