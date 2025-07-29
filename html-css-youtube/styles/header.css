@@ -91,6 +91,7 @@ input:focus{
     font-size: 16px;
 }
 .search-button{
+    position: relative;
     height: 38px;
     width: 60px;
     background-color: rgb(233, 232, 232);
@@ -106,6 +107,24 @@ input:focus{
     background-color: rgb(237, 235, 235);
     border: none;
     border-radius: 38px;
-    
+    position: relative;
    
+}
+
+.search-button .tooltip,
+.voice-button .tooltip{
+    position: absolute;
+    font-family: Roboto, Arial;
+    margin-top: 10px;
+    background-color: rgb(146, 143, 143);
+    padding: 6px;
+    border-radius: 1px;
+    top: 40px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip{
+    opacity: 1;
 }
