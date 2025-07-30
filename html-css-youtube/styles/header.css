@@ -110,14 +110,36 @@ input:focus{
     position: relative;
    
 }
+.create{
+    position: relative;
+}
+.app{
+    position: relative;
+}
+.noti{
+    position: relative;
+}
+.profile{
+    position: relative;
+}
 
 .search-button .tooltip,
-.voice-button .tooltip{
+.voice-button .tooltip,
+.create .tooltip,
+.app .tooltip,
+.noti .tooltip,
+.profile .tooltip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     font-family: Roboto, Arial;
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 8px;
     background-color: rgb(146, 143, 143);
     padding: 6px;
+    margin-left: -10px;
     border-radius: 1px;
     top: 40px;
     opacity: 0;
@@ -125,6 +147,10 @@ input:focus{
     white-space: nowrap;
 }
 .search-button:hover .tooltip,
-.voice-button:hover .tooltip{
+.voice-button:hover .tooltip,
+.create:hover .tooltip,
+.app:hover .tooltip,
+.noti:hover .tooltip,
+.profile:hover .tooltip{
     opacity: 1;
 }
